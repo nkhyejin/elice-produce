@@ -1,0 +1,12 @@
+:root {
+  /* color */
+  --maincolor-bright: #f1f8e9;
+  --maincolor-mid: #dcedc8;
+  --maincolor-dark: #003d00;
+}
+
+* {
+  font-family: "Elice Digital Baeum", sans-serif;
+  /* padding:0;
+  margin: 0; */
+}
