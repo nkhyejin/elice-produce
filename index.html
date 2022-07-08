@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script
@@ -17,62 +17,77 @@
     <title>Produce-myself</title>
   </head>
   <body>
-    <header id="header">
-      <div class="leftarea">
-        <i class="fa fa-sitemap"></i>
-        <a href="">HYEJIN</a>
-      </div>
-      <navbar class="navbar">
-        <ul class="navbar__container">
-          <li class="navbar__item">Home</li>
-          <li class="navbar__item">About</li>
-          <li class="navbar__item">Elice</li>
-          <li class="navbar__item">Contact</li>
-        </ul>
-      </navbar>
-    </header>
+    <div id="backcontainer">
+      <header id="header">
+        <div class="leftarea">
+          <i class="fa fa-sitemap"></i>
+          <a href="" id="hyejin">HYEJIN</a>
+        </div>
+        <navbar class="navbar">
+          <ul class="navbar__container">
+            <li class="navbar__item" data-link="#home">Home</li>
+            <li class="navbar__item" data-link="#about">About</li>
+            <li class="navbar__item" data-link="#elice">Elice</li>
+            <li class="navbar__item" data-link="#contact">Contact</li>
+          </ul>
+        </navbar>
+      </header>
 
-    <section id="home">
-      <div class="cover">
-        <img class="cover__img" src="" alt="hyejin's image" />
-      </div>
-    </section>
+      <section id="home">
+        <div class="cover">
+          <img
+            class="cover__img"
+            src="image/avatar1.jpeg"
+            alt="hyejin's image"
+          />
+        </div>
+        <div class="home__user" style="font-weight: bold">Hyejin Namkung</div>
+        <div class="home__description">웹 프론트엔드 개발자</div>
+        <hr />
+      </section>
+    </div>
 
-    <section id="about">
-      <h2 class="title">about me</h2>
+    <section id="about" class="container">
+      <h2 class="title">About me</h2>
       <p class="about__description">
-        소개 사이트에 오신것을 환영합니다 ;)<br />
-        저는 웹 프론트엔드 개발자를 꿈꾸고있습니다.<br />
+        안녕하세요! 저는 다양한 일을 경험해보고자 타 직무에서 오래동안 근무 후에
+        다시 개발자라는 꿈을 갖게 되었습니다. <br />6개월동안 모두 화이팅 :))
       </p>
-      <ul>
-        <li>생년월일 : 1995.04.04</li>
-        <li>거주지역 : 인천</li>
-        <li>MBTI : ESFJ</li>
+      <ul class="info">
+        <li class="info__item">생년월일 : 1995.04.04</li>
+        <li class="info__item">거주지역 : 인천</li>
+        <li class="info__item">MBTI : ESFJ</li>
       </ul>
     </section>
 
-    <section id="elice">
+    <section id="elice" class="container">
       <h2 class="title">Elice</h2>
 
       <div class="elice__respect">
         <h3>엘리스에서의 기대</h3>
+        <p>
+          개발자라는 꿈을 가진 다양한 사람들과 함께 한다는 것에 설레며,<br />
+          협업의 기회가 없었는데 프로젝트를 할 생각에 가장 기대가 많이 됩니다.
+        </p>
       </div>
 
       <div class="elice__want">
         <h3>엘리스에서의 목표</h3>
+        <ol>
+          <li>웹과 친해지기</li>
+          <li>프론트엔드와 백엔드가 어떻게 협업하는지 체험하기</li>
+          <li>능동적으로 문제를 해결해나가는 방법 얻기</li>
+          <li>문제해결능력 기르기 (알고리즘)</li>
+        </ol>
       </div>
 
-      <div class="elice__sat">
+      <div class="elice__say">
         <h3>동료 레이서에게 하고싶은 말</h3>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2 class="title">contact</h2>
-      <div>
-        <a href="">insta</a>
-        <a href="">velog</a>
-        <a href="">github</a>
+        <p>
+          6개월이라는 과정이 순탄하지만은 않겠지만, 그 속에서 함께 정보를
+          공유하면서 성장해나갑시다!<br />
+          지치지말고, 포기하지말고 화이팅입니다!
+        </p>
       </div>
     </section>
 
@@ -80,8 +95,20 @@
 
     </section> -->
 
+    <section id="contact" class="container">
+      <h2 class="title">Contact</h2>
+      <div>
+        <p>nkhj0404@gmail.com</p>
+        <a href="https://velog.io/@hyejin_nk"><i class="fa fa-blog"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/hyejiiiiny/"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
     <footer>
-      <p>Copyright</p>
+      <p>2022 Hyejin - All rights reserved</p>
     </footer>
   </body>
 </html>
