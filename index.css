@@ -30,7 +30,7 @@ footer {
 
 section.container {
   margin: 0 40px;
-  margin-bottom: 60px;
+  padding-top: 80px;
 }
 
 #backcontainer {
@@ -105,7 +105,7 @@ section.container {
   border: var(--maincolor-bright) solid 5px;
   border-radius: 50%;
   filter: grayscale(20%);
-  margin-top: 225px;
+  margin-top: 350px;
 }
 
 .home__user,
@@ -129,6 +129,7 @@ hr {
 
 /* about me */
 #about {
+  padding-bottom: 40px;
 }
 
 .about__description {
@@ -145,7 +146,6 @@ hr {
 
 /* elice */
 #elice {
-  padding-top: 10px;
   padding-bottom: 40px;
   background-color: var(--maincolor-bright);
 }
